@@ -1,0 +1,18 @@
+html{
+    background-color: rgb(78, 236, 223); 
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+nav.left{
+    color: rgb(113, 114, 114);
+    margin: 10px;
+}
+nav.right{
+    color: rgb(113, 114, 114);
+}
+nav > a{
+    color: rgb(245, 241, 241);
+}
