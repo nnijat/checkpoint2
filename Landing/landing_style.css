@@ -1,15 +1,26 @@
 html {
   background-color: rgb(78, 236, 223);
 }
+/******************************Header style**********************************/
 header {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(42, 165, 89);
+  background-color: cadetblue;
   padding: 10px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.0975);
   width: 100%;
   margin-left: -10px;
   margin-top: -8px;
+  position: sticky;
+  top: 0;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + header {
+  padding-top: 102px;
 }
 header > nav {
   color: rgb(113, 114, 114);
@@ -34,3 +45,9 @@ nav.right > a:nth-child(3){
 
 }
 
+/******************************Section style**********************************/
+section >img {
+  width: 1440px;
+  height: 600px;
+  margin-left: -10px;
+}
