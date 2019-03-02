@@ -1,5 +1,5 @@
 html {
-  background-color: rgb(250, 250, 250);
+  background-color: darkslategray;
 }
 /******************************Header style**********************************/
 header {
@@ -46,14 +46,13 @@ nav.right > a:nth-child(3) {
 
 /******************************Section style**********************************/
 section > img {
-  width: 102.5%;
-  height: 600px;
-  margin-left: -10px;
+  width: 80%;
+  margin: 10%;
 }
 
 /******************************footer style**********************************/
 footer {
-  background-color: coral;
+  background-color: sienna;
 }
 
 .footer_container {
@@ -66,12 +65,5 @@ footer {
   width: 30%;
   height: 200px;
   margin: 2%;
-  background-color: darkgray;
-}
-
-#infoOne {
-}
-#infoTwo {
-}
-#infoThree {
+  background-color: lavender;
 }
