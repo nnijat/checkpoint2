@@ -46,9 +46,16 @@ nav.right > a:nth-child(3) {
 }
 
 /******************************Section style**********************************/
+section {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 section > img {
   width: 80%;
-  margin: 10%;
+  margin: 2%;
 }
 
 /******************************footer style**********************************/
