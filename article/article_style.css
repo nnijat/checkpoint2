@@ -36,8 +36,9 @@ i {
   margin: 2%;
 }
 nav.right > a:nth-child(3) {
-  font-family: "Lobster", cursive;
+  font-family: "Patua One", cursive;
   font-size: 25px;
+  margin: 1%;
 }
 .right.inline {
   display: flex;
@@ -60,6 +61,19 @@ main {
   font-family: "Luckiest Guy", cursive;
   font-size: 400%;
   margin: 15%;
+}
+main > nav > a {
+  text-decoration: none;
+  font: bold;
+  margin: 1%;
+}
+main > nav > a > span {
+  font-family: "Patua One", cursive;
+  color: peru;
+  font-size: 18px;
+}
+span {
+  color: tomato;
 }
 
 /******************************footer style**********************************/
@@ -105,13 +119,16 @@ footer {
   border: 2px solid blue;
 }
 .title {
-    color: white;
+  color: white;
   font-size: 220%;
   font-family: "Open Sans", sans-serif;
 }
 .article_Text {
-    color: white;
+  color: white;
   font-family: "Open Sans", sans-serif;
   height: auto;
   width: 50%;
+}
+section > a {
+  text-decoration: none;
 }
