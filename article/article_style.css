@@ -317,3 +317,47 @@ section > a {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
+/******************************media query **********************************/
+/*desktop*/
+@media (min-width: 992px) {}
+
+/*mobile*/
+@media (max-width: 576px) {
+  main {
+    display: none;
+  }
+  footer {
+    background-color: black;
+    margin: 10%;
+  }
+  .footer_container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-evenly;
+    align-items: center
+  }
+  .infoSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 85%;
+    margin: 2%;
+    background-color: black;
+  }
+  .title {
+    color: white;
+    font-size: 100%;
+    font-family: "Open Sans", sans-serif;
+  }
+  .article_Text {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    height: auto;
+    width: 70%;
+  }
+}
+
+

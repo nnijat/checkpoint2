@@ -92,3 +92,112 @@ section {
   margin-left: 10%;
   margin-right: 10%;
 }
+
+/******************************media query **********************************/
+/*desktop*/
+@media (min-width: 992px) {
+  html {
+    background-color: darkslategray;
+  }
+  /******************************Header style**********************************/
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+    padding: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.0975);
+    width: 100%;
+    margin-left: -10px;
+    margin-top: -8px;
+    position: sticky;
+    top: 0;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + header {
+    padding-top: 102px;
+  }
+  header > nav {
+    color: rgb(113, 114, 114);
+  }
+  header > nav > a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .right {
+    width: 200px;
+  }
+  i {
+    margin: 2%;
+  }
+  nav.right > a:nth-child(3) {
+    font-family: "Patua One", cursive;
+    font-size: 25px;
+    margin: 1%;
+  }
+  .right.inline {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /******************************main style**********************************/
+  .content_container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .content {
+    width: 60%;
+  }
+  .content > p {
+    font-family: "Cabin", sans-serif;
+    font-size: 22px;
+  }
+  main > nav {
+    margin: 2%;
+  }
+  main > nav > a {
+    text-decoration: none;
+    font: bold;
+  }
+  main > nav > a > span {
+    font-family: "Patua One", cursive;
+    color: peru;
+    font-size: 18px;
+  }
+  span {
+    color: tomato;
+  }
+  iframe {
+    margin: 5%;
+  }
+  /******************************footer style**********************************/
+  footer {
+    background-color: sienna;
+    width: 101.3%;
+    margin-left: -0.5%;
+    font-size: 11px;
+  }
+  section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+/*mobile*/
+@media (min-width: 576px) {
+  nav.right > a:nth-child(3) {
+    font-size: 25px;
+  }
+  .fa-2x {
+    font-size: 1em;
+  }
+}
