@@ -54,24 +54,14 @@ section {
   margin-right: 10%;
 }
 section > img {
-  width: 80%;
+  width: 70%;
   margin: 2%;
 }
 
 /******************************footer style**********************************/
 footer {
   background-color: sienna;
-}
-
-.footer_container {
-  display: flex;
-  flex-direction: row;
-  height: 250px;
-  justify-content: space-evenly;
-}
-.infoSection {
-  width: 30%;
-  height: 200px;
-  margin: 2%;
-  background-color: lavender;
+  width: 101.3%;
+  margin-left: -0.5%;
+  font-size: 11px;
 }
