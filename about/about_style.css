@@ -75,25 +75,20 @@ main > nav > a > span {
 span {
   color: tomato;
 }
+iframe {
+  margin: 5%;
+}
 /******************************footer style**********************************/
 footer {
   background-color: sienna;
-  margin: 5%;
+  width: 101.3%;
+  margin-left: -0.5%;
+  font-size: 11px;
 }
-
-.footer_container {
+section {
   display: flex;
-  flex-direction: row;
-  height: 250px;
-  justify-content: space-evenly;
-}
-.infoSection {
-  display: flex;
-  flex-direction: column;
+  flex-flow: column;
   align-items: center;
-  justify-content: space-evenly;
-  width: 25%;
-  height: 80%;
-  margin: 2%;
-  background-color: lavender;
+  margin-left: 10%;
+  margin-right: 10%;
 }
