@@ -193,11 +193,14 @@ section {
 }
 
 /*mobile*/
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   nav.right > a:nth-child(3) {
     font-size: 25px;
   }
   .fa-2x {
     font-size: 1em;
+  }
+  iframe {
+    display: none;
   }
 }
