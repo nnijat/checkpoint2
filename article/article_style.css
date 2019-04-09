@@ -63,9 +63,10 @@ main {
   margin: 15%;
 }
 main > nav > a {
-  text-decoration: none;
+  /* text-decoration: none;
   font: bold;
-  margin: 1%;
+  margin: 1%; */
+  display:none;
 }
 main > nav > a > span {
   font-family: "Patua One", cursive;
@@ -78,8 +79,9 @@ span {
 
 /******************************footer style**********************************/
 footer {
-  background-color: black;
-  margin: 5%;
+  /* background-color: black;
+  margin: 5%; */
+  display: none;
 }
 
 .footer_container {
