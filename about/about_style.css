@@ -61,7 +61,8 @@ nav.right > a:nth-child(3) {
   font-size: 22px;
 }
 main > nav {
-  margin: 2%;
+  /* margin: 2%; */
+  display: none;
 }
 main > nav > a {
   text-decoration: none;
