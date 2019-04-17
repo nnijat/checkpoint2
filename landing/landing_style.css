@@ -66,11 +66,11 @@
   
   /******************************footer style**********************************/
   footer {
-    /* background-color: sienna;
+    background-color: sienna;
     width: 101.3%;
     margin-left: -0.5%;
-    font-size: 11px; */
-    display : none;
+    font-size: 11px;
+    /* display : none; */
   }
 
 }
@@ -92,14 +92,14 @@
     position: sticky;
     top: 0;
   }
-  /* .sticky {
+  .sticky {
     position: fixed;
     top: 0;
     width: 100%;
   }
   .sticky + header {
     padding-top: 102px;
-  } */
+  }
   header > nav {
     color: rgb(113, 114, 114);
   }
@@ -141,7 +141,7 @@
   
   /******************************footer style**********************************/
   footer {
-    display: none;
+    /* display: none; */
   }
 }
 
@@ -205,7 +205,7 @@
   }
   
   /******************************footer style**********************************/
-  footer {
+  /* footer {
     display: none;
-  }
+  } */
 }
